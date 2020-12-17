@@ -23,7 +23,7 @@ namespace src.Entities
             return Name
                 + " (used) $ "
                 + Price
-                + "(Manufacture date: "
+                + " (Manufacture date: "
                 + ManufactureDate.ToString("dd/MM/yyyy")
                 + ")";
         }

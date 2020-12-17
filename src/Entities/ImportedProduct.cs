@@ -29,7 +29,7 @@ namespace src.Entities
             return Name
                 + " $ "
                 + TotalPrice().ToString("F2", CultureInfo.InvariantCulture)
-                + "(Customs fee: $ "
+                + " (Customs fee: $ "
                 + CustomsFee.ToString("F2", CultureInfo.InvariantCulture)
                 + ")";
         }
